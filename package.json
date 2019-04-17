@@ -12,6 +12,9 @@
 		"eslint-plugin",
 		"urlaubsverwaltung"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"license": "Apache-2.0",
 	"peerDependencies": {
