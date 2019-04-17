@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung.svg?branch=master)](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung)
+
 # eslint-plugin-urlaubsverwaltung
 
 custom eslint rules for the [Open Source Urlaubsverwaltung](https://github.com/synyx/urlaubsverwaltung) application.
