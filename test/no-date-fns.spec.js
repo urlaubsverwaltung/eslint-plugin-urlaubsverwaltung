@@ -1,7 +1,12 @@
+const test = require("ava");
+const avaRuleTester = require("eslint-ava-rule-tester");
 const rule = require("../rules/no-date-fns");
-const RuleTester = require("eslint").RuleTester;
 
-const ruleTester = new RuleTester({ parserOptions: { sourceType: "module" } });
+const ruleTester = avaRuleTester(test, {
+	parserOptions: {
+		sourceType: "module",
+	},
+});
 
 ruleTester.run("no-react-intl", rule, {
 	valid: [
