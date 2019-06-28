@@ -18,7 +18,7 @@
 	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
 	"license": "Apache-2.0",
 	"peerDependencies": {
-		"eslint": ">= 5"
+		"eslint": ">= 5 < 6"
 	},
 	"devDependencies": {
 		"ava": "2.1.0",
