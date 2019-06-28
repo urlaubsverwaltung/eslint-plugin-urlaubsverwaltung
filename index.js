@@ -1,6 +1,7 @@
 module.exports = {
 	rules: {
 		"no-date-fns": require("./rules/no-date-fns"),
+		"no-global-fetch": require("./rules/no-global-fetch"),
 	},
 	configs: {
 		recommended: {
@@ -11,6 +12,7 @@ module.exports = {
 			plugins: ["@urlaubsverwaltung/eslint-plugin"],
 			rules: {
 				"@urlaubsverwaltung/no-date-fns": "error",
+				"@urlaubsverwaltung/no-global-fetch": "error",
 			},
 		},
 	},

@@ -25,3 +25,38 @@ import { format } from "date-fns";
 import { startOfWeek } from "date-fns";
 import DateFns from "date-fns";
 ```
+
+### @urlaubsverwaltung/no-global-fetch
+
+global fetch api should not be used in favor of an abstraction layer.
+this layer could handle JSON serialisation for instance, or authorization and common error handling.
+
+valid:
+
+```js
+import * as fetch from "../lib/http";
+
+fetch.json('/api');
+```
+
+```js
+import fetch from "fetch";
+
+fetch('/api');
+```
+
+```js
+function fetch() {
+  // ...
+}
+
+fetch('/api');
+```
+
+invaild:
+
+```js
+fetch('/api')
+window.fetch('/api')
+global.fetch('/api')
+```
