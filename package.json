@@ -1,48 +1,48 @@
 {
-	"name": "@urlaubsverwaltung/eslint-plugin",
-	"version": "1.0.0",
-	"description": "custom eslint rules for the open source urlaubsverwaltung application",
-	"main": "index.js",
-	"scripts": {
-		"test": "ava"
-	},
-	"keywords": [
-		"eslint",
-		"eslintplugin",
-		"eslint-plugin",
-		"urlaubsverwaltung"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
-	"license": "Apache-2.0",
-	"peerDependencies": {
-		"eslint": ">= 5 < 6"
-	},
-	"devDependencies": {
-		"ava": "2.1.0",
-		"eslint": "5.16.0",
-		"eslint-ava-rule-tester": "3.0.0",
-		"husky": "2.7.0",
-		"lint-staged": "8.2.1",
-		"prettier": "1.18.2"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged",
-			"pre-push": "npm test"
-		}
-	},
-	"lint-staged": {
-		"*.js": [
-			"prettier --write '**/*.js'",
-			"git add"
-		]
-	},
-	"ava": {
-		"files": [
-			"test/*.js"
-		]
-	}
+  "name": "@urlaubsverwaltung/eslint-plugin",
+  "version": "1.0.0",
+  "description": "custom eslint rules for the open source urlaubsverwaltung application",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "urlaubsverwaltung"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "eslint": ">= 5 < 6"
+  },
+  "devDependencies": {
+    "ava": "2.1.0",
+    "eslint": "5.16.0",
+    "eslint-ava-rule-tester": "3.0.0",
+    "husky": "2.7.0",
+    "lint-staged": "8.2.1",
+    "prettier": "1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write '**/*.js'",
+      "git add"
+    ]
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  }
 }

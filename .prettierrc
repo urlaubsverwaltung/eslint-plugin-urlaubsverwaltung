@@ -8,5 +8,13 @@
 	"singleQuote": false,
 	"tabWidth": 2,
 	"trailingComma": "all",
-	"useTabs": true
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "package*.json",
+			"options": {
+				"useTabs": false,
+			}
+		}
+	]
 }
