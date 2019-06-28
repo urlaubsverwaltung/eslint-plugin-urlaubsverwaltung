@@ -25,7 +25,7 @@
 		"eslint": "5.16.0",
 		"eslint-ava-rule-tester": "3.0.0",
 		"husky": "2.7.0",
-		"lint-staged": "8.1.5",
+		"lint-staged": "8.2.1",
 		"prettier": "1.17.0"
 	},
 	"husky": {
