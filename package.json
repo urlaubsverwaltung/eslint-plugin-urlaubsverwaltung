@@ -18,11 +18,11 @@
   "author": "Benjamin Seber <seber@synyx.de> (https://www.synyx.de)",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "eslint": ">= 5 < 6"
+    "eslint": ">= 6 < 7"
   },
   "devDependencies": {
     "ava": "2.1.0",
-    "eslint": "5.16.0",
+    "eslint": "6.2.2",
     "eslint-ava-rule-tester": "3.0.0",
     "husky": "2.7.0",
     "lint-staged": "8.2.1",

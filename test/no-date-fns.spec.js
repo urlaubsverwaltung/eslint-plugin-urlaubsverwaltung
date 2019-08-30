@@ -4,6 +4,7 @@ const rule = require("../rules/no-date-fns");
 
 const ruleTester = avaRuleTester(test, {
 	parserOptions: {
+		ecmaVersion: 2015,
 		sourceType: "module",
 	},
 });
