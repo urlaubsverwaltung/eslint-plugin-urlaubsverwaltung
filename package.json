@@ -25,7 +25,7 @@
     "eslint": "6.2.2",
     "eslint-ava-rule-tester": "3.0.0",
     "husky": "4.3.6",
-    "lint-staged": "8.2.1",
+    "lint-staged": "10.5.3",
     "prettier": "1.18.2"
   },
   "husky": {
@@ -36,8 +36,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write '**/*.js'",
-      "git add"
+      "prettier --write '**/*.js'"
     ]
   },
   "ava": {
