@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung.svg?branch=master)](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung)
+[![Build Status](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung.svg?branch=main)](https://travis-ci.org/synyx/eslint-plugin-urlaubsverwaltung)
 
 # eslint-plugin-urlaubsverwaltung
 
