@@ -21,7 +21,7 @@
     "eslint": "*"
   },
   "devDependencies": {
-    "ava": "3.15.0",
+    "ava": "4.0.1",
     "eslint": "8.1.0",
     "eslint-ava-rule-tester": "4.0.0",
     "husky": "5.1.3",
