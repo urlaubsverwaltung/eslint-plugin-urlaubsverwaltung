@@ -60,3 +60,20 @@ fetch('/api')
 window.fetch('/api')
 global.fetch('/api')
 ```
+
+## Development
+
+### git hooks (optional)
+
+There are some app specific git hooks to automate stuff like:
+
+- Install NodeJS dependencies after `git pull` when `package-lock.json` has changed
+- Format files on commit
+
+If you want to take advantage of this automation you can run:
+
+```bash
+git config core.hooksPath '.githooks' 
+```
+
+The Githooks can be found in the [.githooks](./.githooks/) directory.
