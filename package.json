@@ -21,7 +21,7 @@
     "eslint": "*"
   },
   "devDependencies": {
-    "ava": "5.1.0",
+    "ava": "5.3.1",
     "eslint": "8.43.0",
     "eslint-ava-rule-tester": "4.0.0",
     "lint-staged": "13.1.0",
