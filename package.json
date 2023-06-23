@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "ava": "5.1.0",
-    "eslint": "8.29.0",
+    "eslint": "8.43.0",
     "eslint-ava-rule-tester": "4.0.0",
     "lint-staged": "13.1.0",
     "prettier": "2.8.8"
