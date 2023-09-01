@@ -25,7 +25,7 @@
     "eslint": "8.44.0",
     "eslint-ava-rule-tester": "4.0.0",
     "lint-staged": "13.2.3",
-    "prettier": "2.8.8"
+    "prettier": "3.0.3"
   },
   "lint-staged": {
     "*.js": [
