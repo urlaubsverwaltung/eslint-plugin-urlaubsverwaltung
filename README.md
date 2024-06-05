@@ -1,5 +1,9 @@
 [![Build Status](https://github.com/synyx/eslint-plugin-urlaubsverwaltung/actions/workflows/build.yml/badge.svg)](https://github.com/synyx/eslint-plugin-urlaubsverwaltung/actions/workflows/build.yml)
 
+> This custom plugin has been superseded with native eslint rules
+> - [no-restricted-globals](https://eslint.org/docs/latest/rules/no-restricted-globals)
+> - [no-restricted-imports](https://eslint.org/docs/latest/rules/no-restricted-imports)
+
 # eslint-plugin-urlaubsverwaltung
 
 custom eslint rules for the [Open Source Urlaubsverwaltung](https://github.com/synyx/urlaubsverwaltung) application.
